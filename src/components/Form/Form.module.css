@@ -1,0 +1,115 @@
+.prime{
+  width:100%;
+  height: 100vh;
+  justify-content: space-around;
+  background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/19643055883023.5996f8afa3a8f.gif");
+  background-repeat: no-repeat;
+  background-size:auto;
+  background-position:top;
+  display: flex-box;
+  justify-content:center;
+}
+
+.contain{
+  width: 100%;
+  max-width: 1200px;
+  height: 300px;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  margin: auto;
+  flex-direction: row;
+  position:relative;
+  padding: 0;
+ 
+ 
+}  
+
+.form{
+  background-color: rgba(255, 255, 255, 0.0);
+  margin:auto;
+  width:90%;
+  max-width: 400px;
+  padding: 4.5em 3em;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px -5px rgb(0 0 0 / 30%);
+  text-align:center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 140px;
+  
+  }
+  .form_title{
+    font-size: 2em;
+    margin-bottom: 1em;
+    color: aqua;
+  }
+  .form_parrafo{
+    font-weight: 200;
+    color: white;
+  }
+  .form_link{
+    font-weight: 400;
+    color:rgb(255, 3, 150);;
+    text-decoration: none;
+  }
+  .form_container{
+    margin-top: 3em;
+    display: grid;
+    gap: 2.5em;
+
+  }
+  .form_group{
+    position: relative;
+    --color: #57577e;
+    justify-content: center;
+    align-items: center;
+  }
+  .form_imput1{
+    width: 100%;
+    background: none;
+    color: #706c6c;
+    font-size: 1em;
+    border: none;
+    outline: none;
+    bottom: 1px solid var(--color);
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0;
+    border-radius: 8px;
+    text-decoration: none;
+  }
+
+
+  .form_label{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    position:relative;
+    top: 0;
+    left: -3px;
+    text-align:center;
+    align-items: center;
+    padding: 0;
+  }
+  .alert_error{
+    font-size: 10px;
+    text-decoration: wavy;
+    color: rgb(247, 60, 253);
+    box-shadow: 0 12px 16px rgb(255, 3, 3);
+    background: none;
+  }
+  .btn{
+    background-color: rgb(164, 164, 216);
+    width: 50%;
+    border: none;
+    border-radius: 8px;
+    }
+    .btn:hover{
+      cursor: pointer;
+      color:white;
+      background-color: purple;
+      box-shadow: 0 12px 16px rgb(255, 3, 150);
+}
+  .hr{
+    box-shadow: 0 12px 16px rgb(0, 0, 0);
+    
+  }

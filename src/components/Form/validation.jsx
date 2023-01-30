@@ -1,0 +1,21 @@
+const validation=(userData)=>{
+    let errors = {};
+
+    if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(userData.username)){
+       errors.username = "El email es invalido";
+    }
+    if(!userData.username){
+       errors.username =" Este campo no puede estrar vacio";
+    }
+    if(userData.username.length < 35){
+       errors.username="El email no puede superar los 35 caracteres";
+    }
+    if(!userData.password.match(/\d/)){
+       errors.password ="La contraseña debe contener al menos un numero";
+    }
+    if(userData.password.length < 6 || userData.password.length > 10){
+       errors.password = " La contraseña deve tener menos de 10 caracteres"
+    }
+    return errors;
+   }
+   export default validation;
