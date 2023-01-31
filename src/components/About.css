@@ -1,0 +1,30 @@
+.referencia{
+    color:aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.comentarios{
+    color:rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.comentario_2{
+    color:rgb(252, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.redireccion{
+    text-decoration: none;
+    box-shadow: 0 12px 16px rgb(255, 3, 3);
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+.d{
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://media.tenor.com/3hIpHNbcVf4AAAAC/rick-and-morty-rick.gif");
+    background-size:auto;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.39);
+    margin-top: 80px;
+}
+.create{
+    color:white
+}
